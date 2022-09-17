@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.artus25200.betterspeedruns.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "CreateWorldScreenMixin",
+    "DeathScreenMixin",
+    "GameMenuScreenMixin",
+    "ScreenMixin",
+    "SplashTextResourceSupplierMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

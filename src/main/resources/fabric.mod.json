@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "betterspeedruns",
+  "version": "${version}",
+
+  "name": "BetterSpeedruns",
+  "description": "A mod to improve speedrunning.",
+  "authors": [
+    "Artus25200"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/betterspeedruns/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.artus25200.betterspeedruns.BetterSpeedruns"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": ">=1.19",
+    "java": ">=17"
+  }
+}
