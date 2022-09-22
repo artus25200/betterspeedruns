@@ -12,4 +12,4 @@ For 1.19 and needs fabric api
 
 ## TODO
 - Settings (rsg or ssg, seed, difficulty) with Mod Menu Integration
-- In game timer
+- In game timer (working on it)
